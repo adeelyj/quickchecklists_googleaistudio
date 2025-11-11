@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect, KeyboardEvent } from 'react';
-import { ChecklistItemType } from '../types';
+import type { ChecklistItemType } from '../types';
 import { TrashIcon } from './icons/TrashIcon';
 import { DragHandleIcon } from './icons/DragHandleIcon';
 import { useKeystrokeSound } from '../hooks/useKeystrokeSound';

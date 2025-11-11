@@ -1,5 +1,5 @@
 import React, { useState, useCallback, FormEvent, KeyboardEvent } from 'react';
-import { ChecklistStateType, ChecklistItemType } from '../types';
+import type { ChecklistStateType, ChecklistItemType } from '../types';
 import { ChecklistItem } from './ChecklistItem';
 import { PlusIcon } from './icons/PlusIcon';
 import { useKeystrokeSound } from '../hooks/useKeystrokeSound';

@@ -1,5 +1,5 @@
 import React, { useState, useRef, useCallback } from 'react';
-import { ChecklistStateType, ChecklistItemType } from './types';
+import type { ChecklistStateType, ChecklistItemType } from './types';
 import { Checklist } from './components/Checklist';
 import { SpinnerIcon } from './components/icons/SpinnerIcon';
 import { PlusIcon } from './components/icons/PlusIcon';
